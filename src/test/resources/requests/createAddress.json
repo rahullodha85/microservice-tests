@@ -1,0 +1,17 @@
+{
+  "user_id": "autotest2@autotest.com",
+  "is_default": true,
+  "address1": "2345 Picabo St",
+  "address2": "",
+  "city": "New York",
+  "state": "NY",
+  "zip": "10080",
+  "country": "US",
+  "title": "",
+  "first_name": "hoho",
+  "middle_name": "h",
+  "last_name": "poipo",
+  "phone": "1111111111",
+  "address_type": "shipping",
+  "company": "HBC"
+}

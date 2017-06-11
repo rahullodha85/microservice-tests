@@ -1,0 +1,12 @@
+{
+  "first_name": "Test",
+  "last_name": "User",
+  "email": "zzz@email.test",
+  "password": "test123",
+  "confirm_password": "test123",
+  "canadian_customer": "F",
+  "saks_opt_status": "F",
+  "off5th_opt_status": "F",
+  "saks_canada_opt_status": "F",
+  "off5th_canada_opt_status": "F"
+}

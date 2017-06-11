@@ -1,0 +1,11 @@
+{
+  "first_name" : "<<fName>>",
+  "middle_name": "<<mName>>",
+  "last_name" : "<<lName>>",
+  "password" : "<<pwd>>",
+  "confirm_password" : "<<pwd>>",
+  "password_hint" : "",
+  "email" : "<<email>>",
+  "receive_email" : <<receiveemail>>,
+  "saksfirst_member" : <<saksfirstmember>>
+}

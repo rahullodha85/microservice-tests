@@ -1,0 +1,46 @@
+{
+  "request" : {
+    "url" : "http://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/sign-in",
+    "server_received_time" : "2016-02-01T18:11:47-0500",
+    "api_version" : "v1",
+    "help" : "http://hd1qdms01lx.digital.hbc.com:9800/v1/api-docs"
+  },
+  "response" : {
+    "results" : {
+      "sign_in" : {
+        "links" : {
+          "sign_in_action" : "https://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/account/sign-in-action",
+          "forgot_password_link" : "https://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/account/forgot-password"
+        },
+        "messages" : {
+          "invalid_email_error" : "Enter a valid email address.",
+          "email_label" : "Email",
+          "invalid_credentials_error" : "Sorry, this does not match our records. Please try again.",
+          "required_field_error" : "This field is required.",
+          "forgot_password_link" : "Forgot Password",
+          "sign_in_button" : "Sign In",
+          "password_label" : "Password",
+          "title" : "Sign Into My Account"
+        }
+      },
+      "create_account" : {
+        "messages" : {
+          "title" : "I'm New Here",
+          "create_button" : "Create Account"
+        }
+      },
+      "order_status" : {
+        "links" : {
+          "order_status_action" : "https://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/account/order-details"
+        },
+        "messages" : {
+          "title" : "Status",
+          "order_number_label" : "Order Number",
+          "zip_code_label" : "Zip Code",
+          "submit_button" : "Submit"
+        }
+      }
+    }
+  },
+  "errors" : [ ]
+}

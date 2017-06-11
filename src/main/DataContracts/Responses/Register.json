@@ -1,0 +1,67 @@
+{
+  "request" : {
+    "url" : "http://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/register",
+    "server_received_time" : "2016-02-01T15:47:06-0500",
+    "api_version" : "v1",
+    "help" : "http://hd1qdms01lx.digital.hbc.com:9800/v1/api-docs"
+  },
+  "response" : {
+    "results" : {
+      "messages" : {
+        "phone_number_label" : "Phone Number",
+        "submit_button" : "Create Account",
+        "first_name_label" : "First Name",
+        "terms_and_condition_link" : "Terms & Conditions",
+        "last_name_label" : "Last Name",
+        "optional_label" : "Optional",
+        "html_page_level_message" : "",
+        "email_label" : "Email",
+        "html_canadian_customer_privacy_policy" : "View our Saks Off5th Canada <a href=\"http://www.qa.saks.com/Policies\">Privacy Policy.</a> You may contact the Privacy Office at <a href=\"mailto:service@saks.com\">service@saks.com</a> or write to us at Saks Digital, Inc., P.O. Box 10327, Jackson, MS 39289.",
+        "cancel_link" : "Cancel",
+        "postal_code_label" : "ZIP/Postal Code",
+        "canadian_customer_terms_of_service" : "I agree to receive electronic messages from Saks Fifth Avenue OFF 5TH and Saks Fifth Avenue OFF 5TH Canada (operated by Hudson's Bay Company) containing information and offers with respect to products and services that may be of interest to me, including notification of sales, special events and store promotions.  I may withdraw this consent at any time by selecting the unsubscribe option.",
+        "email_update_checkbox_label" : "I would like to receive email updates from:",
+        "password_label" : "Password",
+        "title" : "Create New Account",
+        "confirm_password_label" : "Confirm Password",
+        "canadian_customer_question" : "Are you a Canadian Customer?"
+      },
+      "links" : {
+        "terms_and_condition_link" : "http://www.qa.saks.com/html/popups/terms_of_use.jsp",
+        "cancel_link" : "https://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/account/sign-in-action",
+        "create_action" : "https://hd1qdms01lx.digital.hbc.com:9800/v1/account-service/account/create-account"
+      },
+      "validation_messages" : {
+        "first_name" : "Please enter a valid first name.",
+        "phone_number" : "Please enter a valid phone number",
+        "email" : "Enter a valid email address.",
+        "equal_password" : "Password needs to match the Password field",
+        "required_field" : "This field is required",
+        "last_name" : "Please enter a valid last name.",
+        "postal_code" : "Invalid format",
+        "password" : "Enter a password of at least 6 characters that contains at least one number and one letter."
+      },
+      "canadian_customer" : {
+        "value" : false,
+        "options" : [ {
+          "value" : true,
+          "label" : "Yes"
+        }, {
+          "value" : false,
+          "label" : "No"
+        } ]
+      },
+      "email_update_checkbox" : {
+        "value" : [ "SaksFifthAvenue", "SaksOffFifth" ],
+        "options" : [ {
+          "value" : "SaksOffFifth",
+          "label" : "Saks Off Fifth"
+        }, {
+          "value" : "SaksFifthAvenue",
+          "label" : "Saks Fifth Avenue"
+        } ]
+      }
+    }
+  },
+  "errors" : [ ]
+}
