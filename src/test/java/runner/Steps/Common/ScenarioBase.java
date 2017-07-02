@@ -1,4 +1,4 @@
-package cucumber.steps.common;
+package runner.Steps.Common;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;

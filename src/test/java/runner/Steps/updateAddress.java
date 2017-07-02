@@ -1,4 +1,4 @@
-package cucumber.steps;
+package runner.Steps;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -8,8 +8,8 @@ import com.jayway.restassured.response.ValidatableResponse;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.steps.common.ScenarioBase;
-import cucumber.util.JsonFileReader;
+import runner.Steps.Common.ScenarioBase;
+import runner.util.JsonFileReader;
 import org.hamcrest.CoreMatchers;
 
 import java.util.Collections;

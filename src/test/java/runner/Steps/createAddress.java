@@ -1,11 +1,11 @@
-package cucumber.steps;
+package runner.Steps;
 
 import com.google.gson.JsonObject;
 import com.jayway.restassured.RestAssured;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.steps.common.ScenarioBase;
-import cucumber.util.JsonFileReader;
+import runner.Steps.Common.ScenarioBase;
+import runner.util.JsonFileReader;
 
 import java.util.Collections;
 

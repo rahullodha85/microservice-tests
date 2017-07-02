@@ -1,10 +1,9 @@
-package cucumber.steps.common;
+package runner.Steps.Common;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.ValidatableResponse;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
-import cucumber.steps.common.ScenarioBase;
 import org.hamcrest.CoreMatchers;
 
 import java.util.Collections;

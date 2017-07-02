@@ -1,10 +1,10 @@
-package cucumber.steps;
+package runner.Steps;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.steps.common.ScenarioBase;
+import runner.Steps.Common.ScenarioBase;
 
 import java.util.ArrayList;
 import java.util.Collections;

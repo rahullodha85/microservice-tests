@@ -1,4 +1,4 @@
-package cucumber.steps;
+package runner.Steps;
 
 import com.google.gson.JsonObject;
 import com.jayway.restassured.RestAssured;
@@ -6,12 +6,12 @@ import com.jayway.restassured.response.ValidatableResponse;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.steps.common.ScenarioBase;
-import cucumber.util.JsonFileReader;
+import runner.Steps.Common.ScenarioBase;
+import runner.util.JsonFileReader;
 
 import java.util.Collections;
 
-import static cucumber.steps.common.CommonActions.getLoginPostBody;
+import static runner.Steps.Common.CommonActions.getLoginPostBody;
 import static org.hamcrest.CoreMatchers.is;
 
 public class createAccount extends ScenarioBase {

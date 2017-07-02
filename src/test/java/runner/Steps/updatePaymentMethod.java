@@ -1,4 +1,4 @@
-package cucumber.steps;
+package runner.Steps;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -6,8 +6,8 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.ValidatableResponse;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
-import cucumber.steps.common.ScenarioBase;
-import cucumber.util.JsonFileReader;
+import runner.Steps.Common.ScenarioBase;
+import runner.util.JsonFileReader;
 import org.hamcrest.CoreMatchers;
 import org.joda.time.LocalDate;
 
